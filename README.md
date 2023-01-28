@@ -1,3 +1,1 @@
-# LLD
-# LLD
-# LLD
+# Practice Solid and Design Pattern

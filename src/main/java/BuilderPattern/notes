@@ -1,5 +1,10 @@
 1. Handles Object creation with large number of parameters.
 2. If we want to initialize the object in different ways. Some attributes might be null.
-3. We can achieve immutability of the object by making fields 'final', for all non primitives return deep copy but not the actual field.
+3. We can achieve immutability of the object by making fields 'final', for all non primitives return deep copy but not the actual field. Also no setters
 4. We can add the validations before initializing
 Examples: StringBuilder
+
+why we should do all the validations in setters of builder?
+Ans: there can be a case when there are some fields not getting set. It is better to do validations in the end(build method).
+
+Usecase: Majorly data when fetching from Rest APIs where we can put validations

@@ -1,0 +1,1 @@
+This Pattern is used to create multiple new instances of same object. Some attributes will be copied as it is from template objects.
